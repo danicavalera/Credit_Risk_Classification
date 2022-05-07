@@ -53,11 +53,13 @@ Employ your knowledge of logistic regression to complete the following steps:
 
 ## The results
 ### Machine Learning Model 1:
-
+Accuracy: 95%
+The precision and recall for the 0 class is much better than that for the 1 class. For example, the precision for the 0 values is 1, meaning that out of all the times that the model predicted a testing data observation to be the value 0, 100% of those predictions were correct. In contrast, out of all the times that the model predicted a value of 1, only 85% of those predictions were correct.
 
 ### Machine Learning Model 2:
-
+Accuracy: 99.36%
+The precision for 0 class is much better than that for the 1 class, however, the recall for both classes are equivalent. 100% of class 0's predictions were correct, yet only 84% of class 1's predictions were correct. However, with recision, both classes reported 99%.
 
 ## Summary
 
-Summarize the results from the machine learning models. Compare the two versions of the dataset predictions. Include your recommendation for the model to use, if any, on the original vs. the resampled data. If you don’t recommend either model, justify your reasoning.
+Although both models gave a good accuracy score, Model 2 (resampled data), resulted in a 99% accuracy score. 
