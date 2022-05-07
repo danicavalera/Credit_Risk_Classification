@@ -54,7 +54,7 @@ Employ your knowledge of logistic regression to complete the following steps:
 ## The results
 ### Machine Learning Model 1:
 Accuracy: 95%
-The precision and recall for the 0 class is much better than that for the 1 class. For example, the precision for the 0 values is 1, meaning that out of all the times that the model predicted a testing data observation to be the value 0, 100% of those predictions were correct. In contrast, out of all the times that the model predicted a value of 1, only 85% of those predictions were correct.
+The precision and recall for the 0 class (healthy loan) is much better than that for the 1 class (high risk). For example, the precision for the 0 values is 1, meaning that out of all the times that the model predicted a testing data observation to be the value 0, 100% of those predictions were correct. In contrast, out of all the times that the model predicted a value of 1, only 85% of those predictions were correct.
 
 ### Machine Learning Model 2:
 Accuracy: 99.36%
@@ -62,4 +62,4 @@ The precision for 0 class is much better than that for the 1 class, however, the
 
 ## Summary
 
-Although both models gave a good accuracy score, Model 2 (resampled data), resulted in a 99% accuracy score. 
+Overall, the resampled model performed the best. Although both models gave a good accuracy score, Model 2 (resampled), resulted in a 99% accuracy score, making it higher than Model 1 (original), at 95% accuracy. It is also equally important to predict the 0's and 1's, and model 2 had a much more balanced recision with class 0 and 1 being at 99%. With this in mind, I would recommend using the resampled model.
