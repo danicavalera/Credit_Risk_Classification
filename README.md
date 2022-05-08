@@ -58,7 +58,7 @@ The precision and recall for the 0 class (healthy loan) is much better than that
 
 ### Machine Learning Model 2:
 Accuracy: 99.36%
-The precision for 0 class is much better than that for the 1 class, however, the recall for both classes are equivalent. 100% of class 0's predictions were correct, yet only 84% of class 1's predictions were correct. However, with recision, both classes reported 99%.
+The precision for 0 class is much better than that for the 1 class, however, the recision for both classes are equivalent. 100% of class 0's predictions were correct, yet only 84% of class 1's predictions were correct. However, with recision, both classes reported 99%.
 
 ## Summary
 
