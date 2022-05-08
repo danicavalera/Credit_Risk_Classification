@@ -58,8 +58,8 @@ The precision and recall for the 0 class (healthy loan) is much better than that
 
 ### Machine Learning Model 2:
 Accuracy: 99.36%
-The precision for 0 class is much better than that for the 1 class, however, the recall for both classes are equivalent. 100% of class 0's predictions were correct, yet only 84% of class 1's predictions were correct. However, with recision, both classes reported 99%.
+The precision for 0 class is much better than that for the 1 class, however, the recall for both classes are equivalent. 100% of class 0's predictions were correct, yet only 84% of class 1's predictions were correct. However, with recall, both classes reported 99%.
 
 ## Summary
 
-Overall, the resampled model performed the best. Although both models gave a good accuracy score, Model 2 (resampled), resulted in a 99% accuracy score, making it higher than Model 1 (original), at 95% accuracy. It is also equally important to predict the 0's and 1's, and model 2 had a much more balanced recision with class 0 and 1 being at 99%. With this in mind, I would recommend using the resampled model.
+Overall, the resampled model performed the best. Although both models gave a good accuracy score, Model 2 (resampled), resulted in a 99% accuracy score, making it higher than Model 1 (original), at 95% accuracy. It is also equally important to predict the 0's and 1's, and model 2 had a much more balanced recall with class 0 and 1 being at 99%. With this in mind, I would recommend using the resampled model.
